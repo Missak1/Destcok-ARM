@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    left: 0px;
+    background-color: rgba(189, 13, 13, 0.849);
+    width: 100%;
+
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+}
+
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-right: 30px;
+    font-weight: bold;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #555;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 20px auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.row{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 5rem 0;
+}
+.col-2{
+    flex-basis: 50%;
+    min-width: 300px;
+}
+.col-2 img{
+    width: 100%;
+    padding: 30px 0;
+}
+
+.col-2 h1{
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0;
+}
+.col-2 a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 30px;
+    background: rgba(189, 13, 13, 0.849);
+    color: #fff;
+    border-radius: 30px;
+    margin-top: 25px;
+    transition: background 0.5s;
+}
+
+.col-2 a:hover{
+    background: rgba(211, 40, 40, 0.849);
+}
+p{
+    color: #555;
+}
+
+.header-section{
+    margin-top: -20px;
+    background: radial-gradient(#fff, #eaf2fb);
+
+}
+
+/* style de la categorie section */
+/* .categories{
+    margin: 70px 0;
+    padding: 4rem 0;
+}
+.col-3{
+    flex-basis: 25%;
+    min-width: 350px;
+    margin: auto;
+}
+
+.col-3 img{
+    width: 500px;
+}
+
+.container h2{
+    text-align: center;
+    font-size: 2.2rem;
+    color: #444;
+    margin: 50px 0;
+}  */
+
+/*    Connexion  */
+.containerAccount{
+    padding: 100px;
+    width: 100%;
+}
+
+form {
+    width:100%;
+    padding: 30px;
+    border: 1px solid #f1f1f1;
+    background: #fff;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    
+}
+
+.containerAccount h2{
+    text-align: center;
+    color: rgba(189, 13, 13, 0.849);
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+input[id=submit] {
+    background-color: rgba(189, 13, 13, 0.849);
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 98%;
+    border-radius: 30px;
+    transition: ease .40s;
+    color: white;
+}
+input[id=submit]:hover {
+    background-color: rgba(211, 40, 40, 0.849);
+    
+}
+
+th, td {
+	border: 1px solid black;
+	padding: 8px;
+}
+
+thead th {
+  width: 25%;
+}
